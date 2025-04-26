@@ -22,3 +22,93 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+#########################  INSERER PAR MOI ####################
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# Dépendances de Spring Boot (si tu utilises Maven ou Gradle)  AJOUTER PAR MOI MEME
+# Maven: 
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+
+# Fichiers générés par IDEs (IntelliJ, Eclipse, etc.)
+.classpath
+.project
+.settings/
+
+
+# Fichiers générés par le système de construction
+target/
+build/
+
+# Fichiers de logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.swp
+
+# Fichiers de configuration locaux
+*.env
+*.properties
+*.yml
+*.yaml
+
+# Dépendances de Spring Boot (si tu utilises Maven ou Gradle)
+# Maven: 
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+
+# Fichiers d'exécution
+*.jar
+*.war
+*.ear
+
+# Fichiers de cache
+.cache/
+**/.cache/
+
+# Fichiers générés par OS
+.DS_Store      # macOS
+Thumbs.db      # Windows
